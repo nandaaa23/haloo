@@ -70,3 +70,20 @@ button {
     border: none;
     border-radius: 5px;
 }
+
+#weather-container {
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#weather-output {
+    margin-top: 15px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: #fff;
+    text-align: left;
+}

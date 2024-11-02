@@ -3,6 +3,7 @@ import google.generativeai as genai
 from gtts import gTTS
 import os
 
+
 # Configure the Generative AI model
 genai.configure(api_key="AIzaSyAd1kp_jQKJj3hreNozSjft3wET1a-AoPs")
 
@@ -49,6 +50,8 @@ app = Flask(__name__)
 AUDIO_DIR = 'static/audio'
 os.makedirs(AUDIO_DIR, exist_ok=True)
 
+
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -75,6 +78,8 @@ def ask_mirror():
 @app.route('/audio/<path:filename>')
 def send_audio(filename):
     return send_from_directory(AUDIO_DIR, filename)
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
