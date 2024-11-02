@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #222;
+    color: white;
+    font-family: 'Fantasy', sans-serif;
+}
+
+#mirror-container {
+    position: relative;
+    width: 400px; /* Width of the mirror */
+    height: 650px; /* Height of the mirror */
+    overflow: hidden; /* Hide overflow to avoid showing parts of the image outside the frame */
+    border-radius: 0%; /* Keeps the container oval */
+}
+
+#mirror-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure it takes full width of the container */
+    height: 100%; /* Ensure it takes full height of the container */
+    z-index: 2; /* Mirror frame on top */
+}
+
+#mirror-video {
+    position: absolute;
+    top: 110px; /* Adjusted to align with the specified y-coordinate */
+    left: 30px; /* Adjusted to align with the specified x-coordinate */
+    width: calc(100% - 50px); /* Calculate width based on frame and left/right margins */
+    height: calc(100% - 190px); /* Calculate height based on frame and top/bottom margins */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 50%; /* Match the container's oval shape */
+    z-index: 1; /* Below the frame */
+}
+
+#mirror-text {
+    position: absolute;
+    bottom: 20px; /* Position text at the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center the text horizontally */
+    width: 80%; /* Adjust as necessary */
+    text-align: center;
+    z-index: 3; /* Above video */
+}
+
+#user-input {
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
