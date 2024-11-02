@@ -8,12 +8,13 @@
 Nandana Sanil - LBSITW
 
 ### Project Description
-[2-3 lines about what your project does]
+An AI Interactive Mirror which answers your questions through text and voice and gives you unethical outfit suggestions simutaneously.
 
 ### The Problem (that doesn't exist)
-
+People often lack personalized, humorous life advices and outfit suggestions from their mirrors so thats a "problem".
 
 ### The Solution (that nobody asked for)
+This mirror responds to questions with engaging AI-generated text and voice responses while it suggests unethical outfits for no reason.
 
 ## Technical Details
 ### Technologies Used
@@ -32,7 +33,7 @@ pip install gTTS
 python app.py
 ```
 ### Project Documentation
-# Screenshots (Add at least 3)
+# Screenshots 
 ![intro](https://github.com/user-attachments/assets/1180de8f-8a0d-428e-9279-3dfcb5c66677) <br/>
 landing page
 
