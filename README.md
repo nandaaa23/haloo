@@ -17,22 +17,31 @@ Nandana Sanil - LBSITW
 
 ## Technical Details
 ### Technologies Used
-
-[Languages used]
-[Frameworks used]
-[Libraries used]
-[Tools used]
+- flask
+- google.generativeai
+- gTTS
 
 # Installation
-[commands]
-
+```
+pip install flask
+pip install google-generativeai
+pip install gTTS
+```
+# Run
+```
+python app.py
+```
 ### Project Documentation
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name) Add caption explaining what this shows
+![intro](https://github.com/user-attachments/assets/1180de8f-8a0d-428e-9279-3dfcb5c66677) <br/>
+landing page
 
-![Screenshot2](Add screenshot 2 here with proper name) Add caption explaining what this shows
+![asking](https://github.com/user-attachments/assets/bab082f3-1849-4910-bd09-9e94247fbb3a) <br/>
+asking question
 
-![Screenshot3](Add screenshot 3 here with proper name) Add caption explaining what this shows
+![answering](https://github.com/user-attachments/assets/ef995df6-1844-43d3-b76d-ea205b6aa41d) <br/>
+answering question
+
 
 
 ### Project Demo
