@@ -2,7 +2,7 @@
 
 # HALO 🎯
 [Checkout Halo](https://halo0.vercel.app/)
-Still working on the responsive part and the background.
+(Still working on the responsive part and the background)
 ## Basic Details
 
 ### Team Members
